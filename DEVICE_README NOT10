@@ -1,0 +1,65 @@
+- 👋 Hi, I’m @STRTANARAJA77
+- 👀 I’m interested in ...
+- 🌱 I’m currently learning ...
+- 💞️ I’m looking to collaborate on ...
+- 📫 How to reach me ...
+
+<!---
+STRTANARAJA/ is a ✨ special ✨ repository because its `README NOT10` (this file) appears on your GitHub profile.
+You can click the Preview link to take a look at your changes.
+--->
+1 import cv2
+
+2 Emport numpy as np.
+
+maintain_aspect_ratio_resize(image, width=None, height=None, inter-cv2. INTER_AREA):
+
+dim = None
+
+3 dar
+
+4 Whatsapp hack Number=
+
+5 @#
+
+6 <------
+
+(h, w)= image.shape[:2]
+
+Lwidth is None and height is None:
+
+7
+
+return image
+
+8 if width is None:
+
+9 @#STR,,Tana,, Raja_+_
+
+10 java+java html.html
+
+r = height/ float(h) dim= (int (w*r), height)
+
+11 else:
+
+12 @(----
+
+13git)-(thu)- BU
+
+r = width/ float(w)
+
+14 (Tanaraja)
+
+dim = (width, int(h * r))
+
+return cv2.resize(image, dim, interpolation-inter)
+
+15 template = cv2.imread('template.png")
+
+16 template = cv2.cvtColor (template, cv2.COLOR_BGR2GRAY)
+
+17 template = cv2.Canny (template, 50, 200)
+
+18 (tH, tw) = template.shape[:2]
+
+19 cv2.tmshow("template", template)
